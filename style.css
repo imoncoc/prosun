@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+:root{
+    --mainYellow: #fdbe02;
+    --nyanza: #D8F3DC;
+    --turquoise-Green: #B7E4C7;
+    --turquoise-Green-2: #95D5B2;
+    --ocean-Green: #74C69D;
+    --ocean-Green-2: #52B788;
+    --illuminating: #40916C;
+    --bottle-Green: #2D6A4F;
+    --burnswick: #1B4332;
+    --dark-jungle: #081C15;
+
+    --black-Coffee: #32292F;
+    --middle-Blue-Green: #99E1D9;
+    --mint-Cream: #F0F7F4;
+    --cadet-Blue: #70ABAF;
+    --umbar: #705D56;
+}
+
+body{
+    font-family:  'Mali', sans-serif;
+    background-color: #fff;
+    color: var(--black-Coffee);
+}
+.btn-burnswick{
+    background-color: var(--bottle-Green);
+    color: var(--mint-Cream);
+}
+.btn-burnswick:hover{
+    background-color: var(--burnswick);
+    color: var(--mint-Cream);
+}
+.font-kaushan{
+    font-family: 'Kaushan Script', cursive;
+}
+.navbar__icon{
+    color: var(--middle-Blue-Green);
+}
+.nav-icon{
+    color: var(--dark-jungle);
+}
+.color-burnswick{
+    color: #1B4332;
+}
+.color-cream-white{
+    color: var(--mint-Cream);
+}
+.color-umbar{
+    color: var(--umbar);
+}
+.color-yellow{
+    color: var(--mainYellow);
+}
+.nav-link{
+    font-size: 1.3rem;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+.nav-item{
+    color: var(--black-Coffee) !important;
+}
+.nav-link:hover{
+    color: var(--umbar) !important;
+}
+
+.max-height{
+    min-height: 95vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./img/tree-2.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+.banner{
+    margin-top: -4rem;
+}
+
+.banner-title{
+    font-size: 4rem;
+    color: var(--illuminating);
+}
+.banner-link{
+    font-size: 1.5rem;
+    /* color: var(--middle-Blue-Green); */
+    color: var(--ocean-Green-2);
+    border: 0.2rem solid var(--ocean-Green-2);
+}
+.banner-link:hover{
+    /* background: var(--dark-jungle); */
+    background: transparent;
+    color: var(--mint-Cream);
+    /* border: 0.2rem solid var(--burnswick); */
+    border-color: var(--mint-Cream);
+}
+.sponser-img{
+    max-width: 220px;
+}
+.card-img-top{
+    height: 15rem;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.featured-div{
+    overflow: hidden;
+    transition: all 0.4s;
+}
+.featured-div:hover{
+    transform: translateY(-1rem) !important;
+}
+
+.gallary-img{
+    min-width: 200px;
+}
+.gallary-text{
+    color: var(--mainYellow);
+    font-size: 2rem;
+    /* border-bottom: 2px solid var(--dark-jungle) ; */
+}
+.gallary-border{
+    border-bottom: 2px solid var(--dark-jungle) ;
+}
+.shipping-section{
+    background-color: var(--dark-jungle);
+    background-color: var(--black-Coffee);
+}
+.shipping{
+    color: var(--mint-Cream);
+    color: var(--black-Coffee);
+}
+.shipping h3{
+    color: var(--mint-Cream);
+}
+.skill-icon{
+    font-size: 2rem;
+    margin-top: -0.5rem;
+    color: var(--mainYellow);
+    margin-right: 20px;
+}
+.footer{
+    background-color: var(--dark-jungle);
+    color: var(--mint-Cream);
+}
+.footer-front-text{
+    font-size: 3rem;
+    /* color: var(--mainYellow); */
+    
+}
+.footer-front-text span{
+    padding: 0.3rem;
+    border: 3px dashed var(--mainYellow);
+}
